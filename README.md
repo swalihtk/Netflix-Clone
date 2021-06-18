@@ -7,3 +7,5 @@ Netflix clone app with reactjs
 - movie-trailer npm module used to search and find trailers of movies
 - Axios module used for GET request
 
+# [Preview Website](< https://netflix-clone-23.web.app/ >)
+### Website Url : https://netflix-clone-23.web.app/
