@@ -1,0 +1,69 @@
+.header {
+  height: 400px;
+  color: #fff;
+  object-fit: contain;
+}
+
+.header__items {
+  height: 190px;
+  padding-left: 1rem;
+  padding-top: 7rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.header__buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header__button {
+  border: none;
+  border-radius: 0.2rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 20px;
+  color: white;
+  transition: all 0.3s;
+  background-color: rgba(19, 19, 19, 0.425);
+}
+
+.header__button:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.header__discription {
+  width: 100%;
+  max-width: 300px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.header__footer {
+  height: 6.4rem;
+  background: linear-gradient(180deg, transparent, rgb(37, 37, 37, 0.61), #111);
+}
+
+.youtube__exit {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 0.8rem;
+  border: none;
+  color: #111;
+  background-color: white;
+  z-index: 1;
+  font-family: monospace;
+  border-radius: 0.2rem;
+  font-weight: 700;
+}
+
+.youtube__exit__invisible {
+  display: none;
+}
